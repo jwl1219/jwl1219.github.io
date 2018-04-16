@@ -1,38 +1,63 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>12131578_이지우</title>
-        <meta charset = "UTF-8">
-        <link rel="stylesheet" type="text/css" href="gitstyle.css">
-    </head>
-    <body>
-        <div>
-        <header align ="center">
-            <h1>JWL1219's Blog</h1>
-           
-        </header>
-        <nav>
-            <ul>
-                <li><a href = "https://jwl1219.github.io/profile" target = "main_frame">profile</a></li>
-                <li><a href = "#">photo</a></li>
-                <li><a href = "#">link</a></li>
-                <li style="float:right"><a href = "#" >home</a></li>
-            </ul>      
-        </nav>
-        <section>
-
-        <br>
-         <iframe id = "main_frame" name = "main_frame" width = "100%" height = "400">
-
-         </iframe> 
-        
-        </section>
-        <aside>
-           </aside>
-        <footer>
-            
-            <p>copy right 2018, Jiwoo Lee</p>
-        </footer>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="gitstyle.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class = "container">
+        <header>
+            <div class = "jumbotron-fluid bg-primary">
+                <h1>JWL1219'S BLOG</h1>
+            </div>
+            </header>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
     </div>
-    </body>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Photo</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><button type="button" class="btn btn-secondary"><a href = "https://www.inha.ac.kr">InhaUniversity</a></button></p>
+      <p><button type="button" class="btn btn-secondary"><a href = "https://www.google.com">Google</a></button></p>
+      <p><button type="button" class="btn btn-secondary"><a href = "https://www.facebook.com">Facebook</a></button></p>
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1>Profile</h1>
+      <p></p>
+      <img src="01.png" class="img-thumbnail" alt="Cinque Terre">
+      <hr>
+      <p>about me : this is me internet programming bootstrap.</p>
+    </div>
+    <div class="col-sm-2 sidenav">
+    </div>
+  </div>
+</div>
+</div>
+<footer class="container-fluid text-center">
+  <p>copyright 2018 JWL1219</p>
+</footer>
+
+</body>
 </html>
